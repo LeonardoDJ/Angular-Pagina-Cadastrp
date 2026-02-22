@@ -10,7 +10,6 @@ export class Cliente{
     static newCliente(){
         const cliente = new Cliente();
         cliente.id = uuid();
-
         return cliente;
     }
 }
